@@ -1,0 +1,33 @@
+{
+  "name" : "Chef and Line",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n5 4 1\n100 2 4 17 8\n",
+    "output" : "3\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/CodeChef/CodeChefFebruaryCookOff2018",
+  "vmArgs" : "-Xmx256M -Xss8M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeChef.CodeChefFebruaryCookOff2018.ChefAndLine",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.02.18",
+  "contestName" : "CodeChef - February Cook-Off 2018",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

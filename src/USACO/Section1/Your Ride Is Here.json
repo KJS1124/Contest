@@ -1,0 +1,33 @@
+{
+  "name" : "Your Ride Is Here",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "CUSTOM",
+    "fileName" : "ride.in"
+  },
+  "output" : {
+    "type" : "CUSTOM",
+    "fileName" : "ride.out"
+  },
+  "tests" : [ {
+    "input" : "COMETQ\nHVNGAT\n",
+    "output" : "GO\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/USACO/Section1",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "USACO.Section1.Ride",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.05.08",
+  "contestName" : "USACO Training",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

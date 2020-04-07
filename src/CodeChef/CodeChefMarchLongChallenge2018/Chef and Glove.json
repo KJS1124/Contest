@@ -1,0 +1,33 @@
+{
+  "name" : "Chef and Glove",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n3\n1 2 3\n2 3 4\n3\n1 2 1\n1 2 1\n3\n3 2 1\n1 2 3\n4\n1 3 2 4\n1 2 3 5\n",
+    "output" : "front\nboth\nback\nnone\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/CodeChef/CodeChefMarchLongChallenge2018",
+  "vmArgs" : "-Xmx256M -Xss8M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeChef.CodeChefMarchLongChallenge2018.ChefAndGlove",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.03.03",
+  "contestName" : "CodeChef - March Challenge 2018 DIV 2",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

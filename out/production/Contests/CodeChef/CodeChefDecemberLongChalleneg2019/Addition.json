@@ -1,0 +1,33 @@
+{
+  "name" : "Addition",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n100010010110010101111010\n010101010111011110110101\n0\n100010\n11100\n1010",
+    "output" : "0\n1\n3",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/CodeChef/CodeChefDecemberLongChalleneg2019",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "CodeChef.CodeChefDecemberLongChalleneg2019.Addition",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.11",
+  "contestName" : "CodechefDecemberLong2019",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

@@ -1,0 +1,33 @@
+{
+  "name" : "Chef and Cook-Off",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7\n0 0 0 0 0\n0 1 0 1 0\n0 0 1 0 0\n1 1 1 1 1\n0 1 1 1 0\n0 1 1 1 1\n1 1 1 1 0\n",
+    "output" : "Beginner\nMiddle Developer\nJunior Developer\nJeff Dean\nSenior Developer\nHacker\nHacker\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/CodeChef/CodeChefFebruaryCookOff2018",
+  "vmArgs" : "-Xmx256M -Xss8M",
+  "mainClass" : "Main",
+  "taskClass" : "CodeChef.CodeChefFebruaryCookOff2018.ChefAndCookOff",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.02.18",
+  "contestName" : "CodeChef - February Cook-Off 2018",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

@@ -1,0 +1,33 @@
+{
+  "name" : "Height and Total Height of a BST",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "8\n500 400 300 450 425 475 600 550\n",
+    "output" : "3\n7\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/HackerRank/RookieRank4",
+  "vmArgs" : "-Xmx512M -Xss8M",
+  "mainClass" : "Main",
+  "taskClass" : "HackerRank.RookieRank4.HeightAndTotalHeightOfABST",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.02.16",
+  "contestName" : "RookieRank 4",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}

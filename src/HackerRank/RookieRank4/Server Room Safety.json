@@ -1,0 +1,43 @@
+{
+  "name" : "Server Room Safety",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n1 2 3 4 5\n1 1 1 1 1\n",
+    "output" : "BOTH\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n1 2 3 4 8\n1 1 1 1 1\n",
+    "output" : "NONE\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n1 4\n3 2",
+    "output" : "LEFT",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/HackerRank/RookieRank4",
+  "vmArgs" : "-Xmx512M -Xss8M",
+  "mainClass" : "Main",
+  "taskClass" : "HackerRank.RookieRank4.ServerRoomSafety",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.02.16",
+  "contestName" : "RookieRank 4",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false
+}
