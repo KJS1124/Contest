@@ -1,3 +1,5 @@
+package LeetCode.MonthChallenge;
+
 class Solution {
     public int countElements(int[] arr) {
         int count[] = new int[1005];

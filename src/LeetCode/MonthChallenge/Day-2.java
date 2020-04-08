@@ -1,3 +1,5 @@
+package LeetCode.MonthChallenge;
+
 class Solution {
     public boolean isHappy(int n) {
         HashSet<Integer> set = new HashSet<>();

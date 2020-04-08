@@ -1,3 +1,5 @@
+package LeetCode.MonthChallenge;
+
 class Solution {
     public void moveZeroes(int[] nums) {
         int lastInsertion =0;
