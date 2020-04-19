@@ -1,6 +1,11 @@
 package LeetCode.MonthChallenge;
 
-class Solution {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+class Day6 {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String,List<String>> map = new HashMap();
         for(String s:strs){

@@ -1,14 +1,8 @@
 package LeetCode.MonthChallenge;
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
-class Solution {
+
+
+class Day8 {
     public ListNode middleNode(ListNode head) {
         ListNode current = head;
         ListNode fastCurrent = head;
@@ -17,5 +11,10 @@ class Solution {
             fastCurrent = fastCurrent.next.next;
         }
         return current;
+    }
+    public class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
     }
 }

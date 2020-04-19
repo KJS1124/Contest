@@ -1,6 +1,6 @@
 package LeetCode.MonthChallenge;
 
-class Solution {
+class Day3 {
     public int maxSubArray(int[] nums) {
         int max=Integer.MIN_VALUE;
         int temp=0;

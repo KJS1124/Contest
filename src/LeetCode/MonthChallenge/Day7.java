@@ -1,6 +1,6 @@
 package LeetCode.MonthChallenge;
 
-class Solution {
+class Day7 {
     public int countElements(int[] arr) {
         int count[] = new int[1005];
         for(int x:arr){

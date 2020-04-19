@@ -1,6 +1,6 @@
 package LeetCode.MonthChallenge;
 
-class Solution {
+class Day4 {
     public void moveZeroes(int[] nums) {
         int lastInsertion =0;
         for(int i=0;i<nums.length;i++){

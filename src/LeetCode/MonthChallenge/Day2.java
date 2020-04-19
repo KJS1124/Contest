@@ -1,6 +1,8 @@
 package LeetCode.MonthChallenge;
 
-class Solution {
+import java.util.HashSet;
+
+class Day2 {
     public boolean isHappy(int n) {
         HashSet<Integer> set = new HashSet<>();
         while(n!=1){

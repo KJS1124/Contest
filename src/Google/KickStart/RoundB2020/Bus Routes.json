@@ -1,0 +1,34 @@
+{
+  "name" : "Bus Routes",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n3 10\n3 7 2\n4 100\n11 10 5 50\n1 1\n1\n6 10\n3 4 5 7 6 2",
+    "output" : "Case #1: 6\nCase #2: 99\nCase #3: 1\nCase #4: 6\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/Google/KickStart/RoundB2020",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Solution",
+  "taskClass" : "Google.KickStart.RoundB2020.BusRoutes",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.04.19",
+  "contestName" : "Google Coding Competitions - Round B 2020 - Kick Start 2020",
+  "truncate" : true,
+  "inputClass" : "FastIO.InputReader",
+  "outputClass" : "FastIO.OutputWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,6 +1,6 @@
 package LeetCode.MonthChallenge;
 
-class Solution {
+class Day1 {
     public int singleNumber(int[] nums) {
         int x =0;
         for(int n:nums) x^=n;
